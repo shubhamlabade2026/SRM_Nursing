@@ -52,7 +52,7 @@ const Footer = () => {
                     <ul className="contact-details">
                         <li>
                             <MapPin size={20} className="icon" />
-                            <span>SMR Nursing Bureau, Main Hospital Road, Aurangabad, 431001, Maharashtra, India</span>
+                            <span>SMR Nursing Bureau, Main Hospital Road, Pune, 411001, Maharashtra, India</span>
                         </li>
                         <li>
                             <Phone size={20} className="icon" />

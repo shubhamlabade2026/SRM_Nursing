@@ -7,7 +7,7 @@ const About = () => {
             <div className="page-header bg-light section">
                 <div className="container text-center">
                     <h1 className="hero-title">About <span className="text-secondary">Us</span></h1>
-                    <p className="hero-description mx-auto">Learn about the team dedicated to providing compassionate home and hospital care across Aurangabad.</p>
+                    <p className="hero-description mx-auto">Learn about the team dedicated to providing compassionate home and hospital care across Pune.</p>
                 </div>
             </div>
 

@@ -71,7 +71,7 @@ const Contact = () => {
                                 <div className="icon-circle"><MapPin size={24} /></div>
                                 <div className="info-content">
                                     <h4>Head Office Location</h4>
-                                    <p>SMR Nursing Bureau Building,<br />Near Main City Hospital,<br />Aurangabad, 431001, MH, India</p>
+                                    <p>SMR Nursing Bureau Building,<br />Near Main City Hospital,<br />Pune, 411001, MH, India</p>
                                 </div>
                             </div>
 
@@ -154,10 +154,10 @@ const Contact = () => {
             <section className="contact-map-section">
                 <div className="map-overlay">
                     <h2>Find Us Locally</h2>
-                    <p>Proudly serving Aurangabad and surrounding areas with premium medical support.</p>
+                    <p>Proudly serving Pune and surrounding areas with premium medical support.</p>
                 </div>
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120054.43736800732!2d75.23467362035316!3d19.87328639556889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba2ea9261a86b%3A0xe542da65955b4fb6!2sAurangabad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1716382024546!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121058.91746208882!2d73.78013854194098!3d18.5246164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1716383000000!5m2!1sen!2sin"
                     className="styled-map"
                     allowFullScreen=""
                     loading="lazy"
