@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Desktop, Beaker, LibraryBig, Bus, Stethoscope } from 'lucide-react';
+import { Home, Monitor, Beaker, LibraryBig, Bus, Stethoscope } from 'lucide-react';
 
 const Facilities = () => {
     return (
@@ -40,7 +40,7 @@ const Facilities = () => {
                         </div>
 
                         <div className="card highlight-card">
-                            <div className="icon-wrapper"><Desktop size={32} /></div>
+                            <div className="icon-wrapper"><Monitor size={32} /></div>
                             <h3>Smart Classrooms</h3>
                             <p>Air-conditioned classrooms equipped with audio-visual aids, smart boards, and an internet connection to facilitate interactive learning and presentations.</p>
                         </div>
