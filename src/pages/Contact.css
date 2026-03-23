@@ -1,0 +1,342 @@
+/* Stunning Modern CSS for Contact Page */
+.contact-wrapper {
+    background-color: #f8fafc;
+}
+
+.contact-hero {
+    position: relative;
+    padding: 6rem 0 8rem;
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    color: white;
+    overflow: hidden;
+}
+
+.contact-hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.15) 0%, transparent 40%),
+        radial-gradient(circle at 20% 80%, rgba(16, 185, 129, 0.2) 0%, transparent 40%);
+    z-index: 1;
+}
+
+.contact-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.contact-subtitle {
+    font-size: 1.2rem;
+    max-width: 600px;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.contact-main-section {
+    position: relative;
+    z-index: 10;
+    margin-top: -6rem;
+    /* Pulls the grid up to overlap the hero */
+    padding-bottom: 4rem;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+@media (max-width: 968px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Info Cards */
+.contact-info-panel {
+    background: white;
+    padding: 3rem;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+}
+
+.info-card {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding: 1.5rem;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.info-card:hover {
+    background: #f0f9ff;
+    border-color: #bae6fd;
+    transform: translateX(10px);
+}
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #e0f2fe;
+    color: #0284c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(2, 132, 199, 0.1);
+}
+
+.info-content h4 {
+    font-size: 1.1rem;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+.info-content p {
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.highlight-info {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+}
+
+.highlight-info:hover {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+    transform: translateY(-5px) translateX(0);
+}
+
+.highlight-info .icon-circle {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Form Styling - Premium Glass Effect */
+.contact-form-panel {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    padding: 3rem;
+    border-radius: 24px;
+    box-shadow: 0 20px 50px rgba(2, 132, 199, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.form-header {
+    margin-bottom: 2rem;
+}
+
+.form-header h3 {
+    font-size: 2rem;
+    color: #0f172a;
+    margin-bottom: 0.5rem;
+}
+
+.form-header p {
+    color: #64748b;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+/* Floating Label Animation Magic */
+.modern-input {
+    width: 100%;
+    padding: 1.2rem 1rem 0.6rem;
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 1rem;
+    color: #0f172a;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.modern-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.floating-label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    color: #94a3b8;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: all 0.2s ease-out;
+}
+
+.modern-textarea+.floating-label {
+    top: 1.2rem;
+    transform: none;
+}
+
+.modern-input:focus,
+.modern-input:not(:placeholder-shown) {
+    background: white;
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.1);
+}
+
+.modern-input:focus+.floating-label,
+.modern-input:not(:placeholder-shown)+.floating-label {
+    top: 0.5rem;
+    left: 1rem;
+    font-size: 0.75rem;
+    color: #0284c7;
+    font-weight: 600;
+    transform: none;
+}
+
+/* Submit Button */
+.form-submit-btn {
+    width: 100%;
+    background: #0284c7;
+    color: white;
+    padding: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    box-shadow: 0 10px 20px rgba(2, 132, 199, 0.3);
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.form-submit-btn:hover {
+    background: #0369a1;
+    transform: translateY(-3px);
+    box-shadow: 0 15px 25px rgba(2, 132, 199, 0.4);
+}
+
+.submit-icon {
+    transition: transform 0.3s ease;
+}
+
+.form-submit-btn:hover .submit-icon {
+    transform: translateX(5px) translateY(-5px);
+}
+
+.form-status {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 600;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.form-status.success {
+    background: #d1fae5;
+    color: #059669;
+    border: 1px solid #10b981;
+}
+
+.form-status.error {
+    background: #fee2e2;
+    color: #b91c1c;
+    border: 1px solid #ef4444;
+}
+
+/* WhatsApp Pulse */
+.whatsapp-float {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 65px;
+    height: 65px;
+    background: #25d366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+    z-index: 1000;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    background: #20bd5a;
+}
+
+.pulse-animation {
+    animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-green {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+    }
+
+    70% {
+        box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+}
+
+/* Map Section */
+.contact-map-section {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    margin-top: 4rem;
+}
+
+.styled-map {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    filter: contrast(0.9) opacity(0.9);
+    transition: filter 0.5s ease;
+}
+
+.styled-map:hover {
+    filter: contrast(1) opacity(1);
+}
+
+.map-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 2rem 3rem;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.contact-map-section:hover .map-overlay {
+    opacity: 0;
+}
