@@ -3,10 +3,10 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-import Courses from './pages/Courses';
-import Facilities from './pages/Facilities';
-import Admissions from './pages/Admissions';
-import Gallery from './pages/Gallery';
+import Services from './pages/Services';
+import Booking from './pages/Booking';
+import Team from './pages/Team';
+import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 
 function App() {
@@ -17,10 +17,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/facilities" element={<Facilities />} />
-          <Route path="/admissions" element={<Admissions />} />
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/book" element={<Booking />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/faq" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
