@@ -27,9 +27,10 @@ const Admissions = () => {
                 setResult(data.message);
             }
         } catch (error) {
+            console.error(error);
             setResult("An error occurred while submitting. Please try again.");
         }
-    };
+    }
 
     return (
         <div className="page-wrapper animate-fade-in">

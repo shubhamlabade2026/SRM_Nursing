@@ -27,6 +27,7 @@ const Contact = () => {
                 setResult(data.message);
             }
         } catch (error) {
+            console.error(error);
             setResult("An error occurred while submitting. Please try again.");
         }
     };
