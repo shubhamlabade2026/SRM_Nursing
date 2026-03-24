@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Calendar, Stethoscope, User, MapPin } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const Booking = () => {
     const [result, setResult] = useState("");
@@ -35,6 +36,12 @@ const Booking = () => {
 
     return (
         <div className="page-wrapper animate-fade-in">
+            <SEO 
+                title="Book a Caretaker - Fast Allocation | SMR Nursing Bureau"
+                description="Hire a professional caretaker or nurse instantly. SMR Nursing Bureau provides rapid deployment of verified medical staff in Pune."
+                keywords="Book caretaker online, hire nurse Pune, request medical attendant, rapid medical staff deployment"
+                url="https://srmnursing.vercel.app/book"
+            />
             <div className="page-header bg-light section">
                 <div className="container text-center">
                     <h1 className="hero-title">Hire a <span className="text-secondary">Professional Caretaker</span></h1>

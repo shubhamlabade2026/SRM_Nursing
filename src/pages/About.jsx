@@ -1,9 +1,16 @@
 import React from 'react';
 import { Target, Eye, Shield, CheckCircle, Activity, HeartPulse, User } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const About = () => {
     return (
         <div className="page-wrapper animate-fade-in">
+            <SEO 
+                title="About Us | SMR Nursing Bureau"
+                description="Learn about SMR Nursing Bureau, the trusted team dedicated to providing compassionate home and hospital care across Pune."
+                keywords="About SMR Nursing Bureau, nursing agency Pune, caregiver background, established nursing bureau"
+                url="https://srmnursing.vercel.app/about"
+            />
             <div className="page-header bg-light section">
                 <div className="container text-center">
                     <h1 className="hero-title">About <span className="text-secondary">Us</span></h1>

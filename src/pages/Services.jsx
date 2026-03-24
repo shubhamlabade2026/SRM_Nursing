@@ -1,10 +1,26 @@
 import React from 'react';
 import { Home, Activity, HeartPulse, Stethoscope, Users, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 const Services = () => {
+    const medicalBusinessSchema = {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "SMR Nursing Bureau Services",
+        "description": "Comprehensive medical, nursing, and caretaker services tailored to meet the exact requirements of patients and elderly individuals.",
+        "url": "https://srmnursing.vercel.app/services"
+    };
+
     return (
         <div className="page-wrapper animate-fade-in">
+            <SEO 
+                title="Our Services - Home Nursing & ICU Setup | SMR Nursing Bureau"
+                description="Explore our comprehensive healthcare services: Home Nursing, Hospital Caretaker, Elderly Care, and ICU Setup at Home in Pune."
+                keywords="Home nursing care, hospital caretaker, elderly care services, ICU setup at home Pune, babysitting services"
+                url="https://srmnursing.vercel.app/services"
+                schema={medicalBusinessSchema}
+            />
             <div className="page-header bg-light section">
                 <div className="container text-center">
                     <h1 className="hero-title">Our <span className="text-secondary">Services</span></h1>
@@ -48,7 +64,7 @@ const Services = () => {
                             </ul>
                             <Link to="/book" className="btn btn-primary">Hire Caretaker</Link>
                         </div>
-                        <div style={{ order: 1 }} className="card" style={{ background: 'var(--secondary)', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '300px' }}>
+                        <div className="card" style={{ order: 1, background: 'var(--secondary)', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '300px' }}>
                             <Activity size={100} color="white" style={{ opacity: 0.8 }} />
                         </div>
                     </div>
@@ -88,7 +104,7 @@ const Services = () => {
                             </ul>
                             <Link to="/book" className="btn btn-primary">Request ICU Care</Link>
                         </div>
-                        <div style={{ order: 1 }} className="card" style={{ background: '#f8fafc', border: '1px solid #e2e8f0', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '300px' }}>
+                        <div className="card" style={{ order: 1, background: '#f8fafc', border: '1px solid #e2e8f0', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '300px' }}>
                             <Stethoscope size={100} color="var(--text-dark)" style={{ opacity: 0.2 }} />
                         </div>
                     </div>

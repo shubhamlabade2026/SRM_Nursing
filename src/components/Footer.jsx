@@ -66,6 +66,15 @@ const Footer = () => {
                 </div>
             </div>
 
+            <div className="footer-areas-served" style={{ textAlign: 'center', padding: '2rem 0', borderTop: '1px solid rgba(255,255,255,0.1)', marginTop: '2rem' }}>
+                <div className="container">
+                    <h4 style={{ color: 'var(--secondary)', marginBottom: '1rem', fontSize: '1.1rem' }}>Proudly Serving Maharashtra:</h4>
+                    <p style={{ opacity: 0.8, fontSize: '0.9rem', lineHeight: '1.6', color: '#fff' }}>
+                        Pune • Pimpri-Chinchwad (PCMC) • Mumbai • Navi Mumbai • Thane • Nagpur • Nashik • Solapur • Amravati • Kolhapur
+                    </p>
+                </div>
+            </div>
+
             <div className="footer-bottom">
                 <div className="container">
                     <p>&copy; {new Date().getFullYear()} SMR Nursing Bureau. All rights reserved.</p>

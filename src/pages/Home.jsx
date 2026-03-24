@@ -1,10 +1,53 @@
 import { Link } from 'react-router-dom';
 import { HeartPulse, Home as HomeIcon, Activity, Stethoscope, ChevronRight, Check, Star, User } from 'lucide-react';
+import SEO from '../components/SEO';
 import './Home.css';
 
 const Home = () => {
+    const localBusinessSchema = {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "SMR Nursing Bureau",
+        "image": "https://srmnursing.vercel.app/images/hero.png",
+        "url": "https://srmnursing.vercel.app/",
+        "telephone": "+917498059801",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Near Main City Hospital",
+            "addressLocality": "Pune",
+            "addressRegion": "Maharashtra",
+            "postalCode": "411001",
+            "addressCountry": "IN"
+        },
+        "areaServed": [
+            {
+                "@type": "State",
+                "name": "Maharashtra"
+            },
+            {
+                "@type": "City",
+                "name": "Pune"
+            },
+            {
+                "@type": "City",
+                "name": "Pimpri-Chinchwad"
+            },
+            {
+                "@type": "City",
+                "name": "Mumbai"
+            }
+        ],
+        "description": "SMR Nursing Bureau is a leading provider of highly trained nurses, reliable caretakers, elderly care, and complete ICU setups at home across Pune and Maharashtra."
+    };
+
     return (
         <div className="home-page animate-fade-in">
+            <SEO 
+                title="#1 Nursing Bureau in Pune & Maharashtra | SMR Care"
+                description="Top-rated nursing bureau in Pune. SMR Nursing provides highly trained caretakers, home nurses, elderly care, and 24/7 ICU setups across Maharashtra."
+                keywords="Nursing Bureau Pune, best nursing bureau in Maharashtra, hire caretaker Pune, home nurse Maharashtra, elderly care Pune, ICU setup at home, patient caretaker Mumbai, medical attendant"
+                schema={localBusinessSchema}
+            />
             {/* Hero Section */}
             <section className="hero">
                 <div className="container hero-container">
@@ -37,7 +80,7 @@ const Home = () => {
                                 </div>
                                 <p>Our rapid response team is always ready for immediate deployment to hospitals or residences.</p>
                             </div>
-                            <img src="/images/hero.png" alt="Nursing Care" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '24px' }} onError={(e) => { e.target.style.display = 'none' }} />
+                            <img src="/images/hero.png" alt="Professional Nursing Care and ICU Staff in Pune, Maharashtra" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '24px' }} onError={(e) => { e.target.style.display = 'none' }} />
                         </div>
                     </div>
                 </div>
@@ -46,9 +89,9 @@ const Home = () => {
             {/* SEO Content Section */}
             <section className="section bg-light">
                 <div className="container" style={{ textAlign: 'justify', lineHeight: '1.8' }}>
-                    <h2 className="mb-4" style={{ textAlign: 'center' }}>About SRM Nursing Bureau Aurangabad</h2>
+                    <h2 className="mb-4" style={{ textAlign: 'center' }}>About SRM Nursing Bureau Pune</h2>
                     <p className="mb-3">
-                        Welcome to SRM Nursing Bureau Aurangabad, your trusted partner for professional caretaker services, home nursing, and medical support. Organizing reliable and compassionate care for your loved ones can be a challenging task, but at SRM Nursing Bureau, we strive to make it as seamless as possible. We provide a comprehensive range of health care services, specializing in placing highly trained nurses, experienced caretakers, and skilled medical attendants right at your doorstep.
+                        Welcome to SRM Nursing Bureau Pune, your trusted partner for professional caretaker services, home nursing, and medical support. Organizing reliable and compassionate care for your loved ones can be a challenging task, but at SRM Nursing Bureau, we strive to make it as seamless as possible. We provide a comprehensive range of health care services, specializing in placing highly trained nurses, experienced caretakers, and skilled medical attendants right at your doorstep.
                     </p>
                     <p className="mb-3">
                         Our primary mission is to ensure that patients receive the highest quality of care in the comfort and familiarity of their own homes. Whether you need daily assistance with elderly care, attentive post-surgical recovery, long-term chronic illness management, or setting up a complete ICU facility at home, our dedicated team is available 24/7 to meet your exact demands. We deeply understand that each patient has unique requirements and personal preferences. That is precisely why we offer fully personalized care plans tailored to individual health conditions, developed in close consultation with your primary doctors and medical professionals.
@@ -60,7 +103,7 @@ const Home = () => {
                         We take immense pride in our rapid response times and our strict uninterrupted care guarantees. We know that medical needs can be unpredictable. Should any emergency arise or a staff replacement be suddenly needed, our dedicated support team is just a call away, ready to assist you without any delay. We also stand by our commitment to transparent pricing with absolutely no hidden charges, ensuring that you receive exactly what you expect—honest, top-tier medical support.
                     </p>
                     <p>
-                        Choosing the right care provider is a critical decision. Choose SRM Nursing Bureau in Aurangabad for professional, empathetic, and highly reliable caretaker services that prioritize the safety, health, and well-being of you and your beloved family members above all else. Your peace of mind is our ultimate goal.
+                        Choosing the right care provider is a critical decision. Choose SRM Nursing Bureau in Pune for professional, empathetic, and highly reliable caretaker services that prioritize the safety, health, and well-being of you and your beloved family members above all else. Your peace of mind is our ultimate goal.
                     </p>
                 </div>
             </section>

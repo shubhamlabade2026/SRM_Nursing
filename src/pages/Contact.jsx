@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MapPin, Phone, Mail, Clock, MessageCircle, Send } from 'lucide-react';
+import SEO from '../components/SEO';
 import './Contact.css';
 
 const Contact = () => {
@@ -39,6 +40,12 @@ const Contact = () => {
 
     return (
         <div className="page-wrapper contact-wrapper animate-fade-in relative">
+            <SEO 
+                title="Contact Us - 24/7 Helpline | SMR Nursing Bureau"
+                description="Get in touch with SMR Nursing Bureau. Our medical coordination team operates 24/7 for immediate allocation of caretakers or ICU nurses."
+                keywords="Contact SMR Nursing Bureau, hire caretaker Pune, nursing helpline, medical emergency support Pune"
+                url="https://srmnursing.vercel.app/contact"
+            />
 
             {/* Header Section */}
             <div className="contact-hero">
