@@ -56,7 +56,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <Phone size={20} className="icon" />
-                            <span>+91 999 999 9999<br />+91 888 888 8888</span>
+                            <span>Moeen Pathan<br />+91 7498059801</span>
                         </li>
                         <li>
                             <Mail size={20} className="icon" />

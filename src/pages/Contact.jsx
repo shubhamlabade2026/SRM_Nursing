@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
 
             {/* Floating WhatsApp Button */}
-            <a href="https://wa.me/919999999999" target="_blank" rel="noopener noreferrer" className="whatsapp-float pulse-animation">
+            <a href="https://wa.me/917498059801" target="_blank" rel="noopener noreferrer" className="whatsapp-float pulse-animation">
                 <MessageCircle size={32} />
             </a>
 
@@ -79,7 +79,7 @@ const Contact = () => {
                                 <div className="icon-circle"><Phone size={24} /></div>
                                 <div className="info-content">
                                     <h4>24/7 Helpline</h4>
-                                    <p>+91 999 999 9999<br />+91 888 888 8888</p>
+                                    <p>Moeen Pathan<br />+91 7498059801</p>
                                 </div>
                             </div>
 

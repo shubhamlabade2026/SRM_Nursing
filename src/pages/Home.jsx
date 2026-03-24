@@ -11,7 +11,7 @@ const Home = () => {
                     <div className="hero-content">
                         <div className="badge animate-slide-up">24/7 Professional Medical Support</div>
                         <h1 className="hero-title animate-slide-up" style={{ animationDelay: '0.1s' }}>
-                            Compassionate Care at Your <span className="text-secondary">Doorstep</span>
+                            SRM Nursing Bureau – Caretaker Services
                         </h1>
                         <p className="hero-description animate-slide-up" style={{ animationDelay: '0.2s' }}>
                             SMR Nursing Bureau is dedicated to providing highly trained nurses, experienced caretakers, and comprehensive medical support for your loved ones, exactly when you need it most.
@@ -40,6 +40,28 @@ const Home = () => {
                             <img src="/images/hero.png" alt="Nursing Care" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '24px' }} onError={(e) => { e.target.style.display = 'none' }} />
                         </div>
                     </div>
+                </div>
+            </section>
+
+            {/* SEO Content Section */}
+            <section className="section bg-light">
+                <div className="container" style={{ textAlign: 'justify', lineHeight: '1.8' }}>
+                    <h2 className="mb-4" style={{ textAlign: 'center' }}>About SRM Nursing Bureau Aurangabad</h2>
+                    <p className="mb-3">
+                        Welcome to SRM Nursing Bureau Aurangabad, your trusted partner for professional caretaker services, home nursing, and medical support. Organizing reliable and compassionate care for your loved ones can be a challenging task, but at SRM Nursing Bureau, we strive to make it as seamless as possible. We provide a comprehensive range of health care services, specializing in placing highly trained nurses, experienced caretakers, and skilled medical attendants right at your doorstep.
+                    </p>
+                    <p className="mb-3">
+                        Our primary mission is to ensure that patients receive the highest quality of care in the comfort and familiarity of their own homes. Whether you need daily assistance with elderly care, attentive post-surgical recovery, long-term chronic illness management, or setting up a complete ICU facility at home, our dedicated team is available 24/7 to meet your exact demands. We deeply understand that each patient has unique requirements and personal preferences. That is precisely why we offer fully personalized care plans tailored to individual health conditions, developed in close consultation with your primary doctors and medical professionals.
+                    </p>
+                    <p className="mb-3">
+                        At SRM Nursing Bureau, we believe we do not just provide a medical service; we build lasting trust with the families we serve. Every single staff member, from our nurses to our ward boys, undergoes a rigorous background check and continuous medical training to ensure they meet our exceptional standards of care, hygiene, and empathy. Furthermore, our dedicated hospital caretakers are readily available to support patients during their hospital stay, providing the undivided personal attention, feeding assistance, and emotional support that families might sometimes struggle to offer due to busy modern schedules.
+                    </p>
+                    <p className="mb-3">
+                        We take immense pride in our rapid response times and our strict uninterrupted care guarantees. We know that medical needs can be unpredictable. Should any emergency arise or a staff replacement be suddenly needed, our dedicated support team is just a call away, ready to assist you without any delay. We also stand by our commitment to transparent pricing with absolutely no hidden charges, ensuring that you receive exactly what you expect—honest, top-tier medical support.
+                    </p>
+                    <p>
+                        Choosing the right care provider is a critical decision. Choose SRM Nursing Bureau in Aurangabad for professional, empathetic, and highly reliable caretaker services that prioritize the safety, health, and well-being of you and your beloved family members above all else. Your peace of mind is our ultimate goal.
+                    </p>
                 </div>
             </section>
 
