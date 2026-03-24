@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { HeartPulse, Home as HomeIcon, Activity, Stethoscope, ChevronRight, Check, Star } from 'lucide-react';
+import { HeartPulse, Home as HomeIcon, Activity, Stethoscope, ChevronRight, Check, Star, User } from 'lucide-react';
 import './Home.css';
 
 const Home = () => {
@@ -129,6 +129,36 @@ const Home = () => {
                                 <li><Check color="var(--primary)" /> Personalized care plans developed with doctors' recommendations.</li>
                             </ul>
                             <Link to="/about" className="btn btn-outline mt-4">Read Full Story</Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Meet Our Owners Section on Home Page */}
+            <section className="section bg-light">
+                <div className="container">
+                    <h2 className="text-center mb-5">Meet Our Owners</h2>
+                    <div className="grid grid-3 text-center">
+                        <div className="card">
+                            <div className="icon-wrapper mx-auto mb-3" style={{ display: 'flex', justifyContent: 'center', width: 'fit-content', borderRadius: '50%', padding: '1rem', background: 'var(--primary-light)' }}>
+                                <User size={40} className="text-primary" />
+                            </div>
+                            <h3 className="mb-2">Shubham Labade</h3>
+                            <p className="text-muted">Owner</p>
+                        </div>
+                        <div className="card">
+                            <div className="icon-wrapper mx-auto mb-3" style={{ display: 'flex', justifyContent: 'center', width: 'fit-content', borderRadius: '50%', padding: '1rem', background: 'var(--primary-light)' }}>
+                                <User size={40} className="text-primary" />
+                            </div>
+                            <h3 className="mb-2">Moeen Pathan</h3>
+                            <p className="text-muted">Owner</p>
+                        </div>
+                        <div className="card">
+                            <div className="icon-wrapper mx-auto mb-3" style={{ display: 'flex', justifyContent: 'center', width: 'fit-content', borderRadius: '50%', padding: '1rem', background: 'var(--primary-light)' }}>
+                                <User size={40} className="text-primary" />
+                            </div>
+                            <h3 className="mb-2">Rudra Patil</h3>
+                            <p className="text-muted">Owner</p>
                         </div>
                     </div>
                 </div>
