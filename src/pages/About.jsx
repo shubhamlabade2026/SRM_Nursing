@@ -13,6 +13,35 @@ const About = () => {
 
             <section className="section">
                 <div className="container">
+                    <h2 className="text-center mb-5">Meet Our Owners</h2>
+                    <div className="grid grid-3 text-center">
+                        <div className="card">
+                            <div className="icon-wrapper mx-auto mb-3" style={{ display: 'flex', justifyContent: 'center', width: 'fit-content', borderRadius: '50%', padding: '1rem', background: 'var(--primary-light)' }}>
+                                <User size={40} className="text-primary" />
+                            </div>
+                            <h3 className="mb-2">Shubham Labade</h3>
+                            <p className="text-muted">Owner</p>
+                        </div>
+                        <div className="card">
+                            <div className="icon-wrapper mx-auto mb-3" style={{ display: 'flex', justifyContent: 'center', width: 'fit-content', borderRadius: '50%', padding: '1rem', background: 'var(--primary-light)' }}>
+                                <User size={40} className="text-primary" />
+                            </div>
+                            <h3 className="mb-2">Moeen Pathan</h3>
+                            <p className="text-muted">Owner</p>
+                        </div>
+                        <div className="card">
+                            <div className="icon-wrapper mx-auto mb-3" style={{ display: 'flex', justifyContent: 'center', width: 'fit-content', borderRadius: '50%', padding: '1rem', background: 'var(--primary-light)' }}>
+                                <User size={40} className="text-primary" />
+                            </div>
+                            <h3 className="mb-2">Rudra Patil</h3>
+                            <p className="text-muted">Owner</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section bg-light">
+                <div className="container">
                     <div className="grid grid-2 items-center">
                         <div>
                             <h2 className="mb-4">Company Overview</h2>
@@ -62,37 +91,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
-
             <section className="section">
-                <div className="container">
-                    <h2 className="text-center mb-5">Meet Our Owners</h2>
-                    <div className="grid grid-3 text-center">
-                        <div className="card">
-                            <div className="icon-wrapper mx-auto mb-3" style={{ display: 'flex', justifyContent: 'center', width: 'fit-content', borderRadius: '50%', padding: '1rem', background: 'var(--primary-light)' }}>
-                                <User size={40} className="text-primary" />
-                            </div>
-                            <h3 className="mb-2">Shubham Labade</h3>
-                            <p className="text-muted">Owner</p>
-                        </div>
-                        <div className="card">
-                            <div className="icon-wrapper mx-auto mb-3" style={{ display: 'flex', justifyContent: 'center', width: 'fit-content', borderRadius: '50%', padding: '1rem', background: 'var(--primary-light)' }}>
-                                <User size={40} className="text-primary" />
-                            </div>
-                            <h3 className="mb-2">Moeen Pathan</h3>
-                            <p className="text-muted">Owner</p>
-                        </div>
-                        <div className="card">
-                            <div className="icon-wrapper mx-auto mb-3" style={{ display: 'flex', justifyContent: 'center', width: 'fit-content', borderRadius: '50%', padding: '1rem', background: 'var(--primary-light)' }}>
-                                <User size={40} className="text-primary" />
-                            </div>
-                            <h3 className="mb-2">Rudra Patil</h3>
-                            <p className="text-muted">Owner</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="section bg-light">
                 <div className="container">
                     <h2 className="text-center mb-5">Why Choose SMR Nursing Bureau?</h2>
 
