@@ -18,7 +18,7 @@ const Header = () => {
                 <div className="container top-bar-content">
                     <div className="contact-info">
                         <a href="tel:+917498059801" className="info-item"><Phone size={14} /> Moeen Pathan: +91 7498059801</a>
-                        <a href="mailto:info@smrnursingbureau.com" className="info-item"><Mail size={14} /> info@smrnursingbureau.com</a>
+                        <a href="mailto:moeensr9101@gmail.com" className="info-item"><Mail size={14} /> moeensr9101@gmail.com</a>
                     </div>
                     <div className="emergency-badge">
                         24/7 Home & Hospital Care

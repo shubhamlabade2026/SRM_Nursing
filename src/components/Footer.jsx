@@ -60,7 +60,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <Mail size={20} className="icon" />
-                            <span>contact@smrnursingbureau.com</span>
+                            <span>moeensr9101@gmail.com</span>
                         </li>
                     </ul>
                 </div>
