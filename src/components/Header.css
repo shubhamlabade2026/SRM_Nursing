@@ -143,10 +143,37 @@
         padding: 2rem;
         box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        transition: clip-path 0.3s ease-in-out;
+        transition: clip-path 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        z-index: 1000;
+        max-height: calc(100vh - 80px);
+        overflow-y: auto;
     }
 
     .nav-links.open {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
+
+    .nav-links a.btn {
+        margin-left: 0 !important;
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .mobile-extras {
+        display: block;
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .mobile-divider {
+        border: none;
+        border-top: 1px solid rgba(0,0,0,0.1);
+        margin: 1.5rem 0;
+        width: 100%;
+    }
+}
+
+.mobile-extras {
+    display: none;
 }

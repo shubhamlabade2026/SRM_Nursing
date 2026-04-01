@@ -35,8 +35,8 @@ const Header = () => {
                     </div>
                 </Link>
 
-                {/* Desktop Menu */}
-                <div className={`nav-links ${isMenuOpen ? 'mobile-open' : ''}`}>
+                {/* Desktop Menu & Enhanced Mobile Drawer */}
+                <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
                     <Link to="/" className={`nav-link ${isActive('/')}`} onClick={closeMenu}>Home</Link>
                     <Link to="/about" className={`nav-link ${isActive('/about')}`} onClick={closeMenu}>About Us</Link>
                     <Link to="/services" className={`nav-link ${isActive('/services')}`} onClick={closeMenu}>Services</Link>
@@ -44,6 +44,20 @@ const Header = () => {
                     <Link to="/faq" className={`nav-link ${isActive('/faq')}`} onClick={closeMenu}>FAQ</Link>
                     <Link to="/contact" className={`nav-link ${isActive('/contact')}`} onClick={closeMenu}>Contact</Link>
                     <Link to="/book" className="btn btn-primary ml-4" onClick={closeMenu}>Hire Caretaker</Link>
+                    
+                    {/* Extra Actionable Features available on Mobile Menu */}
+                    <div className="mobile-extras">
+                        <hr className="mobile-divider" />
+                        <div className="emergency-badge" style={{ textAlign: 'center', marginBottom: '1.5rem', width: '100%' }}>
+                            🚨 Emergency Support 24/7
+                        </div>
+                        <a href="tel:+917498059801" className="btn btn-outline" style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '8px', marginBottom: '1rem' }}>
+                            <Phone size={18} /> Call Us Now
+                        </a>
+                        <a href="mailto:moeensr9101@gmail.com" className="btn btn-outline" style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '8px' }}>
+                            <Mail size={18} /> Send Email
+                        </a>
+                    </div>
                 </div>
 
                 {/* Mobile Menu Toggle */}
