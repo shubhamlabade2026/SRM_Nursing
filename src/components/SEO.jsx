@@ -8,7 +8,11 @@ const SEO = ({ title, description, keywords, url, schema }) => {
       <title>{title}</title>
       <meta name="title" content={title} />
       <meta name="description" content={description} />
-      {keywords && <meta name="keywords" content={keywords} />}
+      {keywords && <meta name="keywords" content={keywords + ", Pune nursing, caretaker near me, Maharashtra home nurse"} />}
+      <meta name="geo.region" content="IN-MH" />
+      <meta name="geo.placename" content="Pune" />
+      <meta name="geo.position" content="18.5204;73.8567" />
+      <meta name="ICBM" content="18.5204, 73.8567" />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />

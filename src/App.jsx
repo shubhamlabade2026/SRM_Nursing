@@ -1,4 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { MessageCircle } from 'lucide-react';
 import ScrollToTop from './components/ScrollToTop';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -31,6 +33,14 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      {/* Global WhatsApp Lead Generator */}
+      <motion.a 
+          href="https://wa.me/917498059801" target="_blank" rel="noopener noreferrer" 
+          className="whatsapp-float pulse-animation glass-panel"
+          initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 1, type: "spring" }}
+      >
+          <MessageCircle size={32} color="#25D366" />
+      </motion.a>
     </div>
   );
 }

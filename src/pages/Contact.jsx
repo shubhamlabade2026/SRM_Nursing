@@ -90,14 +90,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            {/* Floating WhatsApp Button */}
-            <motion.a 
-                href="https://wa.me/917498059801" target="_blank" rel="noopener noreferrer" 
-                className="whatsapp-float pulse-animation glass-panel"
-                initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 1, type: "spring" }}
-            >
-                <MessageCircle size={32} color="#25D366" />
-            </motion.a>
+
 
             <section className="section contact-main-section bg-white pt-2 pb-5">
                 <div className="container">
