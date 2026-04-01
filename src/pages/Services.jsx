@@ -32,7 +32,7 @@ const Services = () => {
                 <div className="container">
 
                     {/* Service 1 */}
-                    <div className="grid grid-2 items-center mb-5" style={{ gap: '3rem' }}>
+                    <div id="home-nursing" className="grid grid-2 items-center mb-5" style={{ gap: '3rem', paddingTop: '2rem' }}>
                         <div className="card" style={{ background: 'var(--primary-light)', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '300px' }}>
                             <Home size={100} color="var(--primary)" style={{ opacity: 0.5 }} />
                         </div>
@@ -52,7 +52,7 @@ const Services = () => {
                     <hr style={{ margin: '4rem 0', opacity: 0.2 }} />
 
                     {/* Service 2 */}
-                    <div className="grid grid-2 items-center mb-5" style={{ gap: '3rem' }}>
+                    <div id="hospital-caretakers" className="grid grid-2 items-center mb-5" style={{ gap: '3rem', paddingTop: '2rem' }}>
                         <div style={{ order: 2 }} className="card">
                             <h2 className="mb-3">Hospital Caretaker Services</h2>
                             <p className="text-muted mb-4">When a family member is hospitalized, it isn't always possible for relatives to stay 24/7. Our hospital attendants stay by the patient's side, ensuring all their non-medical needs are met promptly and communicating with hospital staff.</p>
@@ -72,7 +72,7 @@ const Services = () => {
                     <hr style={{ margin: '4rem 0', opacity: 0.2 }} />
 
                     {/* Service 3 */}
-                    <div className="grid grid-2 items-center mb-5" style={{ gap: '3rem' }}>
+                    <div id="elderly-care" className="grid grid-2 items-center mb-5" style={{ gap: '3rem', paddingTop: '2rem' }}>
                         <div className="card" style={{ background: 'var(--primary)', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '300px' }}>
                             <HeartPulse size={100} color="white" style={{ opacity: 0.5 }} />
                         </div>
@@ -92,7 +92,7 @@ const Services = () => {
                     <hr style={{ margin: '4rem 0', opacity: 0.2 }} />
 
                     {/* Service 4 */}
-                    <div className="grid grid-2 items-center" style={{ gap: '3rem' }}>
+                    <div id="icu-setup" className="grid grid-2 items-center" style={{ gap: '3rem', paddingTop: '2rem' }}>
                         <div style={{ order: 2 }} className="card">
                             <h2 className="mb-3">ICU Setup at Home</h2>
                             <p className="text-muted mb-4">For critically ill patients cleared for home care, bringing hospital-level care to the residence drastically reduces costs and infection risks. We provide specialized ICU-trained staff.</p>

@@ -38,11 +38,11 @@ const Footer = () => {
                 <div className="footer-col links-col">
                     <h3>Our Services</h3>
                     <ul>
-                        <li><Link to="/services"><ArrowRight size={16} /> Home Nursing</Link></li>
-                        <li><Link to="/services"><ArrowRight size={16} /> Hospital Caretakers</Link></li>
-                        <li><Link to="/services"><ArrowRight size={16} /> Elderly Care</Link></li>
-                        <li><Link to="/services"><ArrowRight size={16} /> Post-Surgery Care</Link></li>
-                        <li><Link to="/services"><ArrowRight size={16} /> ICU Home Setup</Link></li>
+                        <li><Link to="/services#home-nursing"><ArrowRight size={16} /> Home Nursing</Link></li>
+                        <li><Link to="/services#hospital-caretakers"><ArrowRight size={16} /> Hospital Caretakers</Link></li>
+                        <li><Link to="/services#elderly-care"><ArrowRight size={16} /> Elderly Care</Link></li>
+                        <li><Link to="/services#home-nursing"><ArrowRight size={16} /> Post-Surgery Care</Link></li>
+                        <li><Link to="/services#icu-setup"><ArrowRight size={16} /> ICU Home Setup</Link></li>
                     </ul>
                 </div>
 
