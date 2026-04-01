@@ -28,10 +28,10 @@ const Header = () => {
 
             {/* Main Navigation */}
             <nav className="main-nav container">
-                <Link to="/" className="brand-logo" onClick={closeMenu}>
-                    <div className="logo-icon"><Navigation fill="var(--secondary)" size={28} /></div>
-                    <div className="brand-text">
-                        SMR <span>Nursing Bureau</span>
+                <Link to="/" className="logo" onClick={closeMenu}>
+                    <img src="/images/logo.png" alt="SMR Nursing Bureau Logo" />
+                    <div className="logo-text">
+                        <h1>SMR <span>Nursing Bureau</span></h1>
                     </div>
                 </Link>
 
