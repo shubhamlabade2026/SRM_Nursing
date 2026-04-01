@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { MessageCircle } from 'lucide-react';
 import ScrollToTop from './components/ScrollToTop';
+import LeadPopup from './components/LeadPopup';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -41,6 +42,8 @@ function App() {
       >
           <MessageCircle size={32} color="#25D366" />
       </motion.a>
+      {/* Automated Lead Generation Engine */}
+      <LeadPopup />
     </div>
   );
 }
